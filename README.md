@@ -1,2 +1,0 @@
-# ldy-amalthea
-Hell [-|-]
