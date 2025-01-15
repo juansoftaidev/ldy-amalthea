@@ -1,0 +1,49 @@
+[http://localhost:3000/graphql]
+query {
+  dogs {
+    id
+    name
+  }
+}
+
+query {
+  dog(id: 1) {
+    id
+    name
+  }
+}
+
+
+# get all dogs:
+
+query {
+  dogs {
+    id
+    name
+  }
+}
+
+
+# dog by ID:
+
+query {
+  dog(id: 1) {
+    id
+    name
+  }
+}
+
+
+
+# Mutation to create a new dog:
+
+
+
+mutation {
+  createDog(name: "Charlie") {
+    id
+    name
+  }
+}
+
+
